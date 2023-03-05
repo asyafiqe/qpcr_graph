@@ -22,7 +22,7 @@ def home(uploaded_file):
     else:
         st.header('To begin please upload a file')
 def amp_df():
-      st.write('Amplification data')
+    st.write('Amplification data')
     st.dataframe(amp)
 
 def melt_df():
